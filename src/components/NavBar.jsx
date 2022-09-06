@@ -16,6 +16,7 @@ const NavBar = () => {
         top: 0,
         justifyContent: "space-between",
         background: "#fff",
+        boxShadow: ""
       }}>
       <Link to={"/"} style={{ display: "flex", alignItems: "center" }}>
         <img src={logo} alt="logo" height={45}/>

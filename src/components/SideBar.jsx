@@ -37,9 +37,8 @@ export const categories = [
   { name: "Gym", icon: <FitnessCenterIcon /> },
 ];
 
-const selectedCategory = 'New'
 
-const SideBar = () => (
+const SideBar = ({selectedCategory, setSelectedCategory}) => (
   <Stack
     direction="row"
     sx={{
